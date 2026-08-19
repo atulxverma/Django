@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
     return HttpResponse("about page")
+
+def footer(request):
+    return HttpResponse("Footer")
