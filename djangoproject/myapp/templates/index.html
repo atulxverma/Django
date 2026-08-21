@@ -54,6 +54,11 @@
             <p class="text-slate-500">No jobs posted yet. Click "Add Job" to get started.</p>
         </div>
     </main>
+    <ul>
+        {% for job in jobs %}
+        <li class="bg-blue-500 text-white p-2 w-[20rem]">{{job.title}} {{job.company}}</li>
+        {% endfor %}
+    </ul>
     <script src="{% static 'index.js' %}"></script>
 </body>
 </html>
