@@ -7,3 +7,6 @@ class Job(models.Model):
     company_name = models.CharField(max_length=255)
     location = models.CharField(max_length=255)
     salary = models.IntegerField()
+
+    def __str__(self):
+        return f"{self.company_name}-{self.title}"
