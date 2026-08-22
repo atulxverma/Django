@@ -24,36 +24,36 @@
 //     "job-card bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md p-5 flex flex-col gap-3";
 
 //   card.innerHTML = `
-//     <div class="flex items-start justify-between gap-2">
-//       <div>
-//         <h3 class="font-semibold text-slate-900">${escapeHtml(job.title)}</h3>
-//         <p class="text-sm text-slate-500">${escapeHtml(job.company)}</p>
-//       </div>
-//       <span class="text-xs font-medium bg-emerald-50 text-emerald-600 px-2 py-1 rounded-full whitespace-nowrap flex items-center gap-1">
-//         <span class="material-icons-outlined text-sm">check_circle</span>
-//         Hiring
-//       </span>
-//     </div>
+    // <div class="flex items-start justify-between gap-2">
+    //   <div>
+    //     <h3 class="font-semibold text-slate-900">${escapeHtml(job.title)}</h3>
+    //     <p class="text-sm text-slate-500">${escapeHtml(job.company)}</p>
+    //   </div>
+    //   <span class="text-xs font-medium bg-emerald-50 text-emerald-600 px-2 py-1 rounded-full whitespace-nowrap flex items-center gap-1">
+    //     <span class="material-icons-outlined text-sm">check_circle</span>
+    //     Hiring
+    //   </span>
+    // </div>
 
-//     <div class="flex items-center gap-4 text-sm text-slate-500">
-//       <span class="flex items-center gap-1">
-//         <span class="material-icons-outlined text-base">location_on</span>
-//         ${escapeHtml(job.location)}
-//       </span>
-//       <span class="font-medium text-slate-700 flex items-center gap-1">
-//         <span class="material-icons-outlined text-base">attach_money</span>
-//         ${escapeHtml(job.salary)}
-//       </span>
-//     </div>
+    // <div class="flex items-center gap-4 text-sm text-slate-500">
+    //   <span class="flex items-center gap-1">
+    //     <span class="material-icons-outlined text-base">location_on</span>
+    //     ${escapeHtml(job.location)}
+    //   </span>
+    //   <span class="font-medium text-slate-700 flex items-center gap-1">
+    //     <span class="material-icons-outlined text-base">attach_money</span>
+    //     ${escapeHtml(job.salary)}
+    //   </span>
+    // </div>
 
-//     <div class="flex justify-end pt-2 border-t border-slate-100">
-//       <button
-//         class="delete-btn text-sm text-slate-400 hover:text-red-600 transition-colors flex items-center gap-1"
-//       >
-//         <span class="material-icons-outlined text-sm leading-none">delete</span>
-//         Delete
-//       </button>
-//     </div>
+    // <div class="flex justify-end pt-2 border-t border-slate-100">
+    //   <button
+    //     class="delete-btn text-sm text-slate-400 hover:text-red-600 transition-colors flex items-center gap-1"
+    //   >
+    //     <span class="material-icons-outlined text-sm leading-none">delete</span>
+    //     Delete
+    //   </button>
+    // </div>
 //   `;
 
 //   card.querySelector(".delete-btn").addEventListener("click", () => {
